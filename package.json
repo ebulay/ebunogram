@@ -1,0 +1,24 @@
+{
+  "name": "jj-monogram",
+  "version": "0.1.0",
+  "description": "CV",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janjarfalk/jj-monogram.git"
+  },
+  "author": "Jan Jarfalk",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/janjarfalk/jj-monogram/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-less": "~0.8.3"
+  }
+}
