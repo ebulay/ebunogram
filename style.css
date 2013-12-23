@@ -1,10 +1,12 @@
-body, html {
+body, html, .hero {
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	text-align: center;
-	cursor: pointer;
+}
+
+.hero {
+    text-align: center;
 }
 
 svg {
@@ -12,4 +14,16 @@ svg {
 	height: 100%;
 	margin: 0 auto;
 	display: block;
-}	
+}
+
+.copy {
+    font: normal 1em/1.618em 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    background: #fff;
+    padding: 2em 3em;
+    display: block;
+    overflow: hidden;
+}
+
+.copy p {
+
+}

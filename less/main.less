@@ -1,0 +1,55 @@
+@import 'lesshat';
+
+body, html, .hero {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  text-align: center;
+}
+
+svg {
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.copy {
+  font: normal 1em/1.618em 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  background: #fff;
+  padding: 2em 3em;
+  display: block;
+  overflow: hidden;
+  p {
+    margin-bottom: 0;
+  }
+  p + p {
+    text-indent: 2em;
+    margin-top: 0;
+  }
+  h2 {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 43em) {
+  .copy {
+    p {
+      .column-count(2);
+      .column-gap(2em);
+    }
+  }
+}
+
+@media (min-width: 115em) {
+  .copy {
+    p {
+      .column-count(3);
+      .column-gap(2em);
+    }
+  }
+}

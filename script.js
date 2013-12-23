@@ -18,4 +18,4 @@ for (var i = elements.length - 1; i >= 0; i--) {
     elements[i].setAttribute('fill', shades[shadeIndex]);
 };
 
-document.body.style.backgroundColor = backgroundColor;
+document.getElementById('hero').style.backgroundColor = backgroundColor;
