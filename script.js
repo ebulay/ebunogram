@@ -19,4 +19,7 @@ for (var i = elements.length - 1; i >= 0; i--) {
 };
 
 document.getElementById('hero').style.backgroundColor = backgroundColor;
-document.getElementById('hero').style.height = document.documentElement.clientHeight + 'px';
+setTimeout(function(){
+    document.getElementById('hero').style.height = document.documentElement.clientHeight + 'px';
+    console.log(document.documentElement.clientHeight);
+},1);
