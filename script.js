@@ -20,6 +20,6 @@ for (var i = elements.length - 1; i >= 0; i--) {
 
 document.getElementById('hero').style.backgroundColor = backgroundColor;
 setTimeout(function(){
-    document.getElementById('hero').style.height = document.documentElement.clientHeight + 'px';
-    console.log(document.documentElement.clientHeight);
+    document.getElementById('hero').style.height = parent.document.body.clientHeight + 'px';
+    console.log(document.documentElement.clientHeight, parent.document.body.clientHeight);
 },1);
