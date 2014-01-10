@@ -25,14 +25,64 @@ svg {
   display: block;
   overflow: hidden;
   p {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   p + p {
     text-indent: 2em;
-    margin-top: 0;
   }
   h2 {
     margin-top: 2em;
+  }
+  footer {
+    clear: both;
+    margin-top: 2em;
+    text-align: right;
+    color: #777;
+    font-size: 0.618em;
+    line-height: 1.618em;
+    span {
+      display: block;
+    }
+  }
+}
+
+.timeline {
+  overflow: hidden;
+  margin-bottom: 20px;
+  span.start {
+    float: left;
+  }
+  span.end {
+    float: right;
+  }
+  ul {
+    float: left;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #eee;
+    display: block;
+    height: 3em;
+  }
+  li {
+    height: 100%;
+    float: left;
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  li.child-hood {
+    width: 20%;
+    background: #3cf;
+  }
+  li.school {
+    width: 60%;
+    background: #f36;
+  }
+  li.work {
+    width: 20%;
   }
 }
 

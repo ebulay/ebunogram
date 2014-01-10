@@ -33,29 +33,101 @@ svg {
 /* line 27, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000327}}
 .copy p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 /* line 30, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000330}}
 .copy p + p {
   text-indent: 2em;
-  margin-top: 0;
 }
-/* line 34, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000334}}
+/* line 33, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000333}}
 .copy h2 {
   margin-top: 2em;
 }
+/* line 36, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000336}}
+.copy footer {
+  clear: both;
+  margin-top: 2em;
+  text-align: right;
+  color: #777;
+  font-size: 0.618em;
+  line-height: 1.618em;
+}
+/* line 43, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000343}}
+.copy footer span {
+  display: block;
+}
+/* line 49, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000349}}
+.timeline {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 52, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000352}}
+.timeline span.start {
+  float: left;
+}
+/* line 55, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000355}}
+.timeline span.end {
+  float: right;
+}
+/* line 58, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000358}}
+.timeline ul {
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #eee;
+  display: block;
+  height: 3em;
+}
+/* line 67, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000367}}
+.timeline li {
+  height: 100%;
+  float: left;
+}
+/* line 71, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000371}}
+.timeline ul,
+.timeline li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 76, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000376}}
+.timeline li.child-hood {
+  width: 20%;
+  background: #3cf;
+}
+/* line 80, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000380}}
+.timeline li.school {
+  width: 60%;
+  background: #f36;
+}
+/* line 84, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000384}}
+.timeline li.work {
+  width: 20%;
+}
 @media (max-width: 42em) {
-  /* line 40, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000340}}
+  /* line 90, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000390}}
   .copy {
     padding: 1em 2em;
   }
 }
 @media (min-width: 43em) {
-  /* line 47, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000347}}
+  /* line 97, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000397}}
   .copy p {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -66,8 +138,8 @@ svg {
   }
 }
 @media (min-width: 115em) {
-  /* line 56, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000356}}
+  /* line 106, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\00003106}}
   .copy p {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -77,4 +149,4 @@ svg {
     column-gap: 2em;
   }
 }
-/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22less%2Fmain.less%22%2C%22less%2Flesshat.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3B%3BAAEI%3BAAAM%3BAAAQ%3BEAChB%2CUAAA%3BEACA%2CSAAA%3BEACA%2CWAAA%3BEACA%2CYAAA%3B%3B%3B%3BAAGI%3BEACJ%2CkBAAA%3B%3B%3B%3BAAGE%3BEACF%2CYAAA%3BEACA%2CYAAA%3BEACA%2CcAAA%3BEACA%2CcAAA%3B%3B%3B%3BAAGI%3BEACJ%2CyBAAyB%2CkBAAkB%2CaAAa%2CSAAS%2CYAAjE%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAALI%2CKAMF%3BEACA%2CgBAAA%3B%3B%3B%3BAAPE%2CKASF%2CEAAI%3BEACJ%2CgBAAA%3BEACA%2CaAAA%3B%3B%3B%3BAAXE%2CKAaD%3BEACD%2CeAAA%3B%3BAAQH%2CQAJwB%3B%3B%3BEACjB%3BIACJ%2CgBAAA%3B%3B%3BAAWH%2CQAPwB%3B%3B%3BEACjB%2CKACF%3BICy4BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3B%3B%3BADx5BzR%2CQAPyB%3B%3B%3BEAClB%2CKACF%3BICg4BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%22%7D */
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22less%2Fmain.less%22%2C%22less%2Flesshat.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3B%3BAAEI%3BAAAM%3BAAAQ%3BEAChB%2CUAAA%3BEACA%2CSAAA%3BEACA%2CWAAA%3BEACA%2CYAAA%3B%3B%3B%3BAAGI%3BEACJ%2CkBAAA%3B%3B%3B%3BAAGE%3BEACF%2CYAAA%3BEACA%2CYAAA%3BEACA%2CcAAA%3BEACA%2CcAAA%3B%3B%3B%3BAAGI%3BEACJ%2CyBAAyB%2CkBAAkB%2CaAAa%2CSAAS%2CYAAjE%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAALI%2CKAMF%3BEACA%2CmBAAA%3B%3B%3B%3BAAPE%2CKASF%2CEAAI%3BEACJ%2CgBAAA%3B%3B%3B%3BAAVE%2CKAYD%3BEACD%2CeAAA%3B%3B%3B%3BAAbE%2CKAeG%3BEACL%2CWAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CoBAAA%3B%3B%3B%3BAArBE%2CKAeG%2COAOA%3BEACH%2CcAAA%3B%3B%3B%3BAAKI%3BEACR%2CgBAAA%3BEACA%2CmBAAA%3B%3B%3B%3BAAFQ%2CSAGJ%2CKAAO%3BEACT%2CWAAA%3B%3B%3B%3BAAJM%2CSAMJ%2CKAAK%3BEACP%2CYAAA%3B%3B%3B%3BAAPM%2CSASL%3BEACD%2CWAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CWAAA%3B%3B%3B%3BAAhBM%2CSAkBL%3BEACD%2CYAAA%3BEACA%2CWAAA%3B%3B%3B%3BAApBM%2CSAsBN%3BAAtBM%2CSAsBD%3BEACL%2CSAAA%3BEACA%2CUAAA%3BEACA%2CqBAAA%3B%3B%3B%3BAAzBM%2CSA2BN%2CGAAY%3BEACZ%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAA7BM%2CSA%2BBN%2CGAAQ%3BEACR%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAAjCM%2CSAmCN%2CGAAM%3BEACN%2CUAAA%3B%3BAAQH%2CQAJwB%3B%3B%3BEACjB%3BIACJ%2CgBAAA%3B%3B%3BAAWH%2CQAPwB%3B%3B%3BEACjB%2CKACF%3BICu1BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3B%3B%3BADt2BzR%2CQAPyB%3B%3B%3BEAClB%2CKACF%3BIC80BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%22%7D */
