@@ -36,8 +36,42 @@ var hue = Math.floor(Math.random()*360);
 setColour(hue);
 
 // Change hue every 300ms.
-setInterval(function(){
+var interval = setInterval(function(){
     document.getElementById('hero').style.height = parent.document.body.clientHeight + 'px';
     if( ++hue >= 360 ) hue = 0;
     setColour(hue);
 },300);
+
+var score = 0;
+$('polygon', 'svg').on('click', function(event){
+    score++;
+    $('#score').append('&bull;');
+
+    var $target = $(event.target);
+        neighbors = $target.data().neighbors.toString().split(',');
+
+    $.each(neighbors, function(index, value){
+        var opacity = $('#polygon-' + value).css('opacity');
+        if(opacity == 1){
+            $('#polygon-' + value).css('opacity', 0.2);
+        } else {
+            $('#polygon-' + value).css('opacity', 1);
+        }
+    });
+
+    var win = true;
+    $('polygon', 'svg').each(function(index, element){
+        if( $(element).css('opacity') == 1) win = false;
+    });
+
+    if(win){
+    clearInterval(interval);
+        $('#score').html(score);
+        $('#score').animate({'opacity':'1'},2000, function() {});
+    $('svg').animate({'opacity':'0'},2000, function(){
+
+            location.reload();
+    });
+    }
+
+});

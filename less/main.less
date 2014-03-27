@@ -18,6 +18,10 @@ svg {
   display: block;
 }
 
+polygon.off {
+    opacity: 0.1;
+}
+
 .copy {
   font: normal 1em/1.618em 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   background: #fff;
@@ -48,6 +52,7 @@ svg {
 
 .timeline {
   overflow: hidden;
+  border-left: 5px solid rgba(0,0,0,0.02);
   margin-bottom: 20px;
   span.start {
     float: left;
@@ -108,4 +113,18 @@ svg {
       .column-gap(2em);
     }
   }
+}
+
+.score {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,255,255);
+    opacity: 0.2;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
 }

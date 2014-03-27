@@ -23,6 +23,11 @@ svg {
 }
 /* line 21, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000321}}
+polygon.off {
+  opacity: 0.1;
+}
+/* line 25, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000325}}
 .copy {
   font: normal 1em/1.618em 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   background: #fff;
@@ -30,23 +35,23 @@ svg {
   display: block;
   overflow: hidden;
 }
-/* line 27, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000327}}
+/* line 31, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000331}}
 .copy p {
   margin-bottom: 20px;
 }
-/* line 30, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000330}}
+/* line 34, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000334}}
 .copy p + p {
   text-indent: 2em;
 }
-/* line 33, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000333}}
+/* line 37, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000337}}
 .copy h2 {
   margin-top: 2em;
 }
-/* line 36, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000336}}
+/* line 40, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000340}}
 .copy footer {
   clear: both;
   margin-top: 2em;
@@ -55,29 +60,30 @@ svg {
   font-size: 0.618em;
   line-height: 1.618em;
 }
-/* line 43, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000343}}
+/* line 47, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000347}}
 .copy footer span {
   display: block;
 }
-/* line 49, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000349}}
+/* line 53, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000353}}
 .timeline {
   overflow: hidden;
+  border-left: 5px solid rgba(0, 0, 0, 0.02);
   margin-bottom: 20px;
 }
-/* line 52, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000352}}
+/* line 57, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000357}}
 .timeline span.start {
   float: left;
 }
-/* line 55, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000355}}
+/* line 60, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000360}}
 .timeline span.end {
   float: right;
 }
-/* line 58, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000358}}
+/* line 63, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000363}}
 .timeline ul {
   float: left;
   width: 100%;
@@ -87,47 +93,47 @@ svg {
   display: block;
   height: 3em;
 }
-/* line 67, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000367}}
+/* line 72, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000372}}
 .timeline li {
   height: 100%;
   float: left;
 }
-/* line 71, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000371}}
+/* line 76, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000376}}
 .timeline ul,
 .timeline li {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 76, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000376}}
+/* line 81, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000381}}
 .timeline li.child-hood {
   width: 20%;
   background: #3cf;
 }
-/* line 80, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000380}}
+/* line 85, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000385}}
 .timeline li.school {
   width: 60%;
   background: #f36;
 }
-/* line 84, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000384}}
+/* line 89, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000389}}
 .timeline li.work {
   width: 20%;
 }
 @media (max-width: 42em) {
-  /* line 90, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000390}}
+  /* line 95, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000395}}
   .copy {
     padding: 1em 2em;
   }
 }
 @media (min-width: 43em) {
-  /* line 97, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\0000397}}
+  /* line 102, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\00003102}}
   .copy p {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -138,8 +144,8 @@ svg {
   }
 }
 @media (min-width: 115em) {
-  /* line 106, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\00003106}}
+  /* line 111, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\00003111}}
   .copy p {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -149,4 +155,19 @@ svg {
     column-gap: 2em;
   }
 }
-/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22less%2Fmain.less%22%2C%22less%2Flesshat.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3B%3BAAEI%3BAAAM%3BAAAQ%3BEAChB%2CUAAA%3BEACA%2CSAAA%3BEACA%2CWAAA%3BEACA%2CYAAA%3B%3B%3B%3BAAGI%3BEACJ%2CkBAAA%3B%3B%3B%3BAAGE%3BEACF%2CYAAA%3BEACA%2CYAAA%3BEACA%2CcAAA%3BEACA%2CcAAA%3B%3B%3B%3BAAGI%3BEACJ%2CyBAAyB%2CkBAAkB%2CaAAa%2CSAAS%2CYAAjE%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAALI%2CKAMF%3BEACA%2CmBAAA%3B%3B%3B%3BAAPE%2CKASF%2CEAAI%3BEACJ%2CgBAAA%3B%3B%3B%3BAAVE%2CKAYD%3BEACD%2CeAAA%3B%3B%3B%3BAAbE%2CKAeG%3BEACL%2CWAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CoBAAA%3B%3B%3B%3BAArBE%2CKAeG%2COAOA%3BEACH%2CcAAA%3B%3B%3B%3BAAKI%3BEACR%2CgBAAA%3BEACA%2CmBAAA%3B%3B%3B%3BAAFQ%2CSAGJ%2CKAAO%3BEACT%2CWAAA%3B%3B%3B%3BAAJM%2CSAMJ%2CKAAK%3BEACP%2CYAAA%3B%3B%3B%3BAAPM%2CSASL%3BEACD%2CWAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CWAAA%3B%3B%3B%3BAAhBM%2CSAkBL%3BEACD%2CYAAA%3BEACA%2CWAAA%3B%3B%3B%3BAApBM%2CSAsBN%3BAAtBM%2CSAsBD%3BEACL%2CSAAA%3BEACA%2CUAAA%3BEACA%2CqBAAA%3B%3B%3B%3BAAzBM%2CSA2BN%2CGAAY%3BEACZ%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAA7BM%2CSA%2BBN%2CGAAQ%3BEACR%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAAjCM%2CSAmCN%2CGAAM%3BEACN%2CUAAA%3B%3BAAQH%2CQAJwB%3B%3B%3BEACjB%3BIACJ%2CgBAAA%3B%3B%3BAAWH%2CQAPwB%3B%3B%3BEACjB%2CKACF%3BICu1BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3B%3B%3BADt2BzR%2CQAPyB%3B%3B%3BEAClB%2CKACF%3BIC80BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%22%7D */
+/* line 118, /Users/janjarfalk/Projects/jj-monogram/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/janjarfalk\/Projects\/jj-monogram\/less\/main\.less}line{font-family:\00003118}}
+.score {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.2;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22less%2Fmain.less%22%2C%22less%2Flesshat.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3B%3BAAEI%3BAAAM%3BAAAQ%3BEAChB%2CUAAA%3BEACA%2CSAAA%3BEACA%2CWAAA%3BEACA%2CYAAA%3B%3B%3B%3BAAGI%3BEACJ%2CkBAAA%3B%3B%3B%3BAAGE%3BEACF%2CYAAA%3BEACA%2CYAAA%3BEACA%2CcAAA%3BEACA%2CcAAA%3B%3B%3B%3BAAGK%2COAAK%3BEACR%2CYAAA%3B%3B%3B%3BAAGE%3BEACJ%2CyBAAyB%2CkBAAkB%2CaAAa%2CSAAS%2CYAAjE%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAALI%2CKAMF%3BEACA%2CmBAAA%3B%3B%3B%3BAAPE%2CKASF%2CEAAI%3BEACJ%2CgBAAA%3B%3B%3B%3BAAVE%2CKAYD%3BEACD%2CeAAA%3B%3B%3B%3BAAbE%2CKAeG%3BEACL%2CWAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CoBAAA%3B%3B%3B%3BAArBE%2CKAeG%2COAOA%3BEACH%2CcAAA%3B%3B%3B%3BAAKI%3BEACR%2CgBAAA%3BEACA%2C0CAAA%3BEACA%2CmBAAA%3B%3B%3B%3BAAHQ%2CSAIJ%2CKAAO%3BEACT%2CWAAA%3B%3B%3B%3BAALM%2CSAOJ%2CKAAK%3BEACP%2CYAAA%3B%3B%3B%3BAARM%2CSAUL%3BEACD%2CWAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CgBAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3BEACA%2CWAAA%3B%3B%3B%3BAAjBM%2CSAmBL%3BEACD%2CYAAA%3BEACA%2CWAAA%3B%3B%3B%3BAArBM%2CSAuBN%3BAAvBM%2CSAuBD%3BEACL%2CSAAA%3BEACA%2CUAAA%3BEACA%2CqBAAA%3B%3B%3B%3BAA1BM%2CSA4BN%2CGAAY%3BEACZ%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAA9BM%2CSAgCN%2CGAAQ%3BEACR%2CUAAA%3BEACA%2CgBAAA%3B%3B%3B%3BAAlCM%2CSAoCN%2CGAAM%3BEACN%2CUAAA%3B%3BAAQH%2CQAJwB%3B%3B%3BEACjB%3BIACJ%2CgBAAA%3B%3B%3BAAWH%2CQAPwB%3B%3B%3BEACjB%2CKACF%3BICk1BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3B%3B%3BADj2BzR%2CQAPyB%3B%3B%3BEAClB%2CKACF%3BICy0BoR%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3BIAqBA%2CuBAAA%3BIAEA%2CoBAAA%3BIAEA%2CeAAA%3B%3B%3B%3B%3BAD%2F1BnR%3BEACH%2CkBAAA%3BEACA%2CSAAA%3BEACA%2CeAAA%3BEACA%2CWAAA%3BEACA%2CkBAAA%3BEACA%2CcAAA%3BEACA%2CYAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CqBAAA%3BEACA%2CaAAa%2CaAAa%2CSAAS%2CYAAnC%22%7D */
